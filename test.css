@@ -1,0 +1,37 @@
+
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+    
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 50px;
+  }
+  
+  a:link {
+    color: red;
+    text-decoration: none;
+    padding-right: 20px;
+  }
+  a:visited {
+    color: green;
+    text-decoration: none;
+    padding-right: 20px;
+  }
+  a:hover {
+    color: hotpink;
+    text-decoration: none;
+    padding-right: 20px;
+  }
+  a:active {
+    color: blue;
+    text-decoration: none;
+    padding-right: 20px;
+  }
