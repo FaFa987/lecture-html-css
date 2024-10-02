@@ -53,13 +53,6 @@
     color: #2590ec;
   }
 
-
-  element.style {
-  }
-  *, *:before, *:after {
-      box-sizing: inherit;
-  }
-  user agent stylesheet
   div {
       display: block;
       unicode-bidi: isolate;
@@ -88,3 +81,103 @@
   *, *:before, *:after {
       box-sizing: inherit;
   }
+  .page-content,
+  .gallery-caption {
+      display: none;
+  }
+  
+  
+      #page {
+          margin-left: 30px;
+          margin-right: 30px;
+      }
+  
+      .page_item_has_children > a:after {
+          display: none;
+      }
+      .comment-body,
+      .is-larger-text {
+          font-size: 3em;
+      }
+      
+      .has-drop-cap:not(:focus):first-letter {
+          float: left;
+          font-size: 8.4em;
+          font-style: normal;
+          font-weight: 100;
+          line-height: 0.68;
+          margin: 0.05em 0.1em 0 0;
+          text-transform: uppercase;
+      }
+      
+      body.rtl,
+      .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+          background-color: #f0f0f0;
+      }
+      
+      .wp-block-table.is-style-stripes.has-subtle-light-gray-background-color tbody tr:nth-child(odd) {
+          background-color: #f3f4f5;
+      }
+      
+      .wp-block-table.is-style-stripes.has-subtle-pale-green-background-color tbody tr:nth-child(odd) {
+          background-color: #e9fbe5;
+      }
+      
+      .wp-block-table.is-style-stripes.has-subtle-pale-blue-background-color tbody tr:nth-child(odd) {
+          background-color: #e7f5fe;
+      }
+      
+      .wp-block-table.is-style-stripes.has-subtle-pale-pink-background-color tbody tr:nth-child(odd) {
+          background-color: #fcf0ef;
+      }
+      
+      .wp-block-table.is-style-stripes td,
+      .wp-block
+      
+      .main-navigation ul ul {
+          background-color: #fff;
+          border: 0;
+          float: none;
+          margin: 0;
+          opacity: 1;
+          padding-left: 15px;
+          position: static;
+          width: auto;
+      }
+  
+      .main-navigation ul li:hover > ul,
+      .main-navigation ul li.focus > ul {
+          left: auto;
+          margin-left: 0;
+      }
+  
+      .main-navigation ul ul:before {
+          display: none;
+      }
+  
+      .main-navigation ul ul li {
+          border: 0;
+      }
+  
+      .main-navigation ul ul li a {
+          font-size: 16px;
+          padding: 5px 15px;
+      }
+  
+      .main-navigation ul ul li a:hover {
+          background-color: transparent;
+      }
+  
+  .with_frm_style textarea[readonly] {
+    background-color: var(--bg-color-disabled);
+    color: var(--text-color-disabled);
+    border-color: var(--border-color-disabled);
+}
+
+.frm_preview_page:before {
+    content: normal !important;
+}
+
+.frm_preview_page {
+    padding: 25px;
+}
